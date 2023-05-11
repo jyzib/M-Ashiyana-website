@@ -3,7 +3,7 @@ import React from 'react'
 const Herosection = () => {
   return (
     <div>
-        <div className='w-full h-screen herocection flex justify-center items-center' >
+        <div className='w-full h-screen herocection ' >
       <div className="w-4/5 h-4/5 box p-10 ">
         <div className="left-box">
         <div className="text-title">

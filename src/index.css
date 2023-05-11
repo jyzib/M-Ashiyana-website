@@ -24,6 +24,10 @@
 }
 .herocection{
   background-color: #002D42;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 .box{
  height: 90%;
@@ -237,7 +241,91 @@ label{
 .our-mission{
   margin: auto;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    
+  }
+  .herocection{
+    background-color: #002D42;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    margin-top: -20px;
+    align-items: center;
+  
+  }
 
+  .box{
+    height: 90%;
+    background-image: linear-gradient(#eba0a8,#ff414d);
+    border-radius: 60px;
+    border: 1px solid white;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column-reverse;
+    width: 90%;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+   
+   }
+   .child{
+    width: 520px;
+    margin-top: 0px;
+  }
+  .child-img{
+     width: 100%;
+  }
+  .text-title{
+    width: 450px;
+  
+  }
+  .title{
+    /* margin: 80px; */
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+    line-height: 40px;
+  }
+  .explore-btn{
+    background-color: #002D42;
+    padding: 13px 20px;
+    margin: 10px 0;
+    box-shadow: 0 5px 10px #002d4257;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    width: 100%;
+    font-size: 20px;
+    
+  }
+  .nav-rigth{
+    display: none;
+  }
+  .bottom-bar{
+    background-color: #D9DFE3;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    justify-content: space-around;
+  }
+  .project-title{
+  
+    font-weight: 200;
+  }
+  .project:hover{
+    color: #ff414d;
+  
+  }
+  .project{
+    cursor: pointer;
+    display: flex;
+    column-gap: 5px;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+}
 
 
 
