@@ -408,3 +408,12 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.39);
 
   line-height: 22px;
 }
+.join-us{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.join-us-section{
+  
+}
