@@ -15,6 +15,7 @@ const Herosection = () => {
           <div className="child">
               <img className='child-img' src="img/child.png" alt="" />
           </div>
+
         </div>
       </div>
     </div>

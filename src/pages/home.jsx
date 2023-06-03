@@ -3,6 +3,7 @@ import Herosection from './Herosection';
 import OurMission from './ourMission';
 import Donation from '../component/donation';
 import Bar from './bar';
+import Joinus from './Joinus'
 
 const home = () => {
   return (
@@ -10,6 +11,7 @@ const home = () => {
       <Herosection/>
       <Bar/>
       <OurMission />
+      <Joinus/>
       <Donation/>
     </>
   )
